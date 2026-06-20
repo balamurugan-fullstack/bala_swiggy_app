@@ -15,7 +15,7 @@ class About extends Component {
                 location: "Sivakasi, India",
                 email: "balamurugan@example.com",
                 bio: "Passionate about building scalable web applications with modern technologies. Currently learning React, Redux, and building projects with Namaste React.",
-                github: "https://github.com/BalamuruganCfdev2023",
+                github: "https://github.com/balamurugan-fullstack",
                 linkedin: "https://linkedin.com/in/balamurugan",
                 twitter: "https://twitter.com/bala2023dev",
                 skills: ["React", "Redux", "Tailwind CSS", "JavaScript", "REST APIs", "Testing", "Git"],
@@ -52,7 +52,7 @@ class About extends Component {
     render() {
         console.log("parent render");
         const { profileData } = this.state;
-        const profileImage = "https://api.github.com/users/BalamuruganCfdev2023/avatar_url?s=400";
+        const profileImage = "https://avatars.githubusercontent.com/u/183606553?s=400&u=538bc68b6443c1d1711208ba7915bea16098c15b&v=4";
 
         return (
             <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
@@ -177,7 +177,7 @@ class About extends Component {
                     {/* Footer Info */}
                     <div className="mt-12 text-center">
                         <p className="text-gray-500 dark:text-gray-400">
-                            Learning and Building with ❤️ | Built with React & Namaste React Course
+                            Learning and Building with ❤️ | Built with React & Node JS
                         </p>
                     </div>
                 </div>
